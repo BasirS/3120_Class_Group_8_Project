@@ -70,6 +70,8 @@
 # myTesla.drive(300)
 # print(myTesla.type)
 
+print("")
+
 class Vehicle:
     def __init__(self, brand, model, type):
         self.brand = brand
