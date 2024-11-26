@@ -11,7 +11,7 @@ class Dog(Animal):
     
     def play(self):
         print(f"{self.name} is playing with {self.favorite_toy}.")
-
+print("")
 # main function
 if __name__ == "__main__":
     d = Dog("Rex")
