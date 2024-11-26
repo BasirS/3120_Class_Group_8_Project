@@ -65,10 +65,10 @@ class Emails:
                 print('Invalid Entry')
                 
             choice = input("L: to lookup, A to add, U to update, and D to delete: Q to quit. ").lower()
+print("")
 
 def main():
     email = Emails()
-
 
 if __name__ == "__main__":
     main()
